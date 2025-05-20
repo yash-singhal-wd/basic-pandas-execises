@@ -27,7 +27,7 @@ By completing all the exercises, you'll be able to:
 
 | #   | Exercise                                               | Focus Area                  | Rows    | Skills Covered                              |
 | --- | ------------------------------------------------------ | --------------------------- | ------- | ------------------------------------------- |
-| 1   | [Employee Filtering](exercise_1_employee_filtering)    | Basic filtering & sorting   | 50      | Filtering, sorting, groupby                 |
+| 1   | [Employee Filtering](Exercise1)                        | Basic filtering & sorting   | 50      | Filtering, sorting, groupby                 |
 | 2   | [Product Sales Aggregation](exercise_2_product_sales)  | Grouping & summarization    | 40      | Groupby, aggregation, new columns           |
 | 3   | [Student Scores Cleaning](exercise_3_student_scores)   | Missing data & statistics   | 30      | Handling NaNs, mean, filtering              |
 | 4   | [Customer Orders Analysis](exercise_4_customer_orders) | String handling & filtering | 20      | String ops, boolean filtering               |
