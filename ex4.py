@@ -15,4 +15,13 @@ orders_df = pd.DataFrame({
     'Order_Value': order_values
 })
 
-print(orders_df)
+print(orders_df[orders_df["Status"]=="Shipped"])
+print("********************************************")
+average = orders_df["Order_Value"].mean()
+print("Average: ", average)
+print(orders_df[orders_df["Order_Value"]>average])
+print("********************************************")
+print(orders_df['Email'].str.split('@'))
+print("********************************************")
+status_df = orders_df.groupby('Status')['Customer'].count()
+print(status_df)

@@ -18,7 +18,7 @@ A dataset of 20 customer orders with the following columns:
 
 1. Filter and show only the **Shipped** orders.
 2. Show customers whose `Order_Value` is **above the average**.
-3. Extract the domain name from the `Email` column.
+3. Extract the customer and domain name from the `Email` column.
 4. Count the number of orders by status.
 
 ## ⭐ Bonus Challenge
